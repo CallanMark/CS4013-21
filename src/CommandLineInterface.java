@@ -1,5 +1,11 @@
+/** Command-line interface class for inteacting with App
+    *Handles user input */
 public class CommandLineInterface {
+ //creates object of the Login class
     Login login;
+ 
+  /** Runs the command-line interface 
+ * Creates objects of the different classes and passes username and password from Login class to it */ 
     public void run() {
 
         login = new Login();
